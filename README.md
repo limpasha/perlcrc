@@ -1,7 +1,7 @@
 # perlcrc-go
-Ported Perl's [String::CRC32](https://metacpan.org/pod/String::CRC32) module to go for strings.
+Ported Perl's [String::CRC32](https://metacpan.org/pod/String::CRC32) module to Go for strings.
 
-Example:
+## Usage example
 ```go
 package main
 
@@ -19,3 +19,8 @@ func main() {
 }
 ```
 prints `3326238302`. That's it :)
+
+## LICENSE
+The algorithm is taken from the source code of [String::CRC32](https://metacpan.org/pod/String::CRC32) perl module. 
+
+The author of this package disclaims all copyrights and releases it into the public domain.
