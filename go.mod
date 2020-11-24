@@ -1,3 +1,3 @@
-module github.com/limpasha/perlcrc/v1
+module github.com/limpasha/perlcrc
 
 go 1.12

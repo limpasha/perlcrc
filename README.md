@@ -1,4 +1,4 @@
-# perlcrc-go
+# perlcrc
 Ported Perl's [String::CRC32](https://metacpan.org/pod/String::CRC32) module to Go for strings.
 
 ## Usage example
@@ -8,7 +8,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/limpasha/perlcrc-go"
+	"github.com/limpasha/perlcrc"
 )
 
 func main() {
